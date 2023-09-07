@@ -2,7 +2,7 @@ spring:
   application:
     name: Eureka Server
 server:
-  port: ${SERVER_PORT:8000}
+  port: ${SERVICE_PORT:8000}
 
 eureka:
   client:
